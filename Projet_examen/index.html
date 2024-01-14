@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>   
+</head>
+<body>
+    <!--  Section page d'acceuil  -->
+    <div class="hero" id="Home">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#Compentences">Compentences</a></li>
+                <li><a href="#Contacts">Contacts</a></li>
+                
+            </ul>
+            <a href="#" class="btn">Subscribe</a>
+        </nav>
+           <!-- Div content -->
+           <div class="content">
+            <h4>Bonjour, je m'appelle</h4>
+            <h1>Fran<span>çois</span></h1>
+            <h3>Je suis développeur Web, designer et manager.</h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Entrer ton email">
+                    <input class="start" type="submit" name="submit" value="Lets Start">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <section class="about" id="About">
+        <div class="main">
+            <img src="/images/img.jpg" alt="Image">
+            <div class="about-text">
+                <h2>A propos de moi</h2>
+                <h5>Developper <span>& Designer</span> </h5>
+                <p>Je suis togolais, j'ai 22 ans et je suis un étudiant puis un développeur web front-end  à l'ISM.
+                    Je peux fournir un code propre et une conception parfaite au pixel près. 
+                    Je rends également le site web de plus en plus interactif avec des animations web. 
+                    Je peux faire des publicités pour les magazins et pour les Hotels concernant des nouveautés. 
+                    Un design adaptatif rend votre site Web accessible à tous les utilisateurs, 
+                    quel que soit leur appareil.</p>
+                    <a href="#portfolio"><button type="button" id="">parlons</button></a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+<!-- portfolio -->
+    <div class="service" id="portfolio">
+        <div class="titre">
+            <h2>My Portfolio</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <h5>Affiche & Designe </h5>
+                <div class="pra">
+                    <img class="image" src="/images/imagedepart_1.jpg" alt=""> 
+                    <p style="text-align: center;">
+                    </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <h5>Stores Pub & Web</h5>
+                <div class="pra">
+                   <img class="image" src="/images/OIF (2).jpeg" alt="">
+    
+                    <p style="text-align: center;">
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Hotel Manager </h5>
+                <div class="pra">
+                    <img class="image" src="/images/OIF (1).jpeg" alt="">
+    
+                    <p style="text-align: center;">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Competences -->
+    <div class="service" id="Compentences">
+        <div class="titre">
+            <h2>Competences</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Affiche & Designe</h5>
+                <div class="pra">
+                    <p>Je suis un designer qui fait des Affiches des films aux entreprises depuis mes 15 ans, je fourni de bon travaille que les gens ne cesse de qualifier de don naturel..., je suis disponible pour vous
+                    </p>
+
+                    <p style="text-align: center;">
+                        <a href="#Contacts" class="button">En savoir plus</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-user"></i>
+                <h5>Stores Pub & Web</h5>
+                <div class="pra">
+                    <p>En dehors des affiches et des designes, je fait aussi des publicités pour des grand magazin, des ecoles des hotels et bien d'autre. Je fourni des sites web fonctionnel et je suis un formateur dans le domaine </p>
+
+                    <p style="text-align: center;">
+                        <a href="#Contacts" class="button">En savoir plus</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-regular fa-bell"></i>
+                <h5> Hotel Manager</h5>
+                <div class="pra">
+                    <p>En dehors de ces compétences précédentes je suis un gerant d'hotel et je fais des intervieuw aux gens qui veulent travillez dans nos hotels pour plus d'information n' hesitez pas à cliquez sur le menu contact   </p>
+    
+                    <p style="text-align: center;">
+                        <a href="#" class="button">En savoir plus</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<section class="form">
+    <div class="formule">
+        <div>
+            <h1>Contacts</h1>
+        </div>
+        <form action="/ma-page-de-traitement" method="post">
+            <ul>
+              <li>
+                <label  class="lab" for="name">Nom&nbsp;:</label>
+                <input class="input" type="text" id="name" name="user_name"/>
+              </li>
+              <li>
+              <label  class="lab" for="name">Email&nbsp;:</label>
+                <input class="input" type="email" name="email" id="mail" placeholder="Entrer ton email">
+                <h1 class="message">Message&nbsp;:</h1> 
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+          </ul>
+          </form>
+
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <p>François</p>
+    <p>Mon portfolio HTML, CSS</p>
+    <div class="social">
+        <a href="#Home"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#Home"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#Home"><i class="fa-brands fa-dribbble"></i></a>
+    </div>
+    <p class="end">CopyRight by François</p> 
+</footer>
+</body>
+</html>
